@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+    color: #d50000; /* Porsche Red */
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #d50000; /* Porsche Red */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #b71c1c; /* Darker shade of Porsche Red */
+}

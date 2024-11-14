@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'porsche_font';
+    src: url('../../fonts/911porschav3.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'porsche_font2';
+    src: url('../../fonts/PorscheNext-Regular.otf') format('truetype');
+}
+
+body {
+    font-family: 'porsche_font', sans-serif;
+}
+
+p {
+    font-family: 'porsche_font2', sans-serif;
+    font-size: 20px;
+}
+
+.title {
+    text-decoration: underline;
+}
